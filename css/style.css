@@ -78,6 +78,13 @@ figure {
 }
 
 @media (prefers-color-scheme: dark) {
+  figure {
+    background-color: grey;
+    color: #ffeb3b;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
   img {
     border: 5px solid black;
   }
